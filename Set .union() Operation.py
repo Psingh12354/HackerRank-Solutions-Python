@@ -1,0 +1,6 @@
+n=int(input())
+Rn_no=set(input().split(' '))
+b=int(input())
+Rb_no=set(input().split(' '))
+s3=Rn_no.union(Rb_no)
+print(len(s3))

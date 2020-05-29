@@ -1,0 +1,5 @@
+m=int(input())
+list1=set(map(int,input().split(' ')))
+n=int(input())
+list2=set(map(int,input().split(' ')))
+print(len(list1.symmetric_difference(list2)))
